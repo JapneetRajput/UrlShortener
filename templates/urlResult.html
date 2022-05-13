@@ -41,21 +41,26 @@
         border-bottom: 2px solid #777;
         color: #555;
       }
+      .Details{
+        position:absolute;
+        left:27%;
+        top: 30%;
+      }
     </style>
   </head>
   <body>
-    <header class="header">
-      <div class="mid">
-        <ul class="navbar">
-          <ul class="navbar">
-              <li><a href="/urlShortener" class="active">Shortener Tool</a></li>
-              <li><a href="/history">History</a></li>
-              <li><a href="#">Profile</a></li>
-              <li><a href="#">Settings</a></li>
-        </ul>
-      </div> 
+    <header>
+      <h1 class="logo" id="activee"><a href="/urlShortener">URL Shortener</a></h1>
+        <nav>
+          <ul class="nav_links">
+            <li><a href="/history">History</a></li>
+            <li><a href="/profile">Profile</a></li>
+            <li><a href="#">Settings</a></li>
+          </ul>
+        </nav>
+        <a class="cta" href="/logout"><button class="button">Logout</button></a>
     </header>
-    <form class="login-box"  action="https://japneeturlshortener.herokuapp.com//url" method="post">
+    <form class="login-box"  action="/url" method="post">
         {% for key,value in result.items() %}
           {% if key!="linkCode" %}
             <h1>{{key}}: <a href="{{value}}">{{value}}</a></h1>
