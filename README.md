@@ -1,3 +1,10 @@
+
+# Developer Details
+
+[Japneet Rajput](https://github.com/JapneetRajput) 
+
+[Portfolio Website](https://japneetrajput.github.io)
+
 # Development
 Please have python3 installed to run this project on terminal:
 [Python3 Installation](https://www.python.org/downloads/)
@@ -46,9 +53,3 @@ Run the app
 ![Url Result](Result.png)
 ![History](History.png)
 ![Profile](Profile.png)
-
-## Developer Details
-
-[Japneet Rajput](https://github.com/JapneetRajput) 
-
-[Portfolio Website](https://japneetrajput.github.io)
