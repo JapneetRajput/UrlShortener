@@ -1,3 +1,10 @@
+
+# Developer Details
+
+[Japneet Rajput](https://github.com/JapneetRajput) 
+
+[Portfolio Website](https://japneetrajput.github.io)
+
 # Development
 Please have python3 installed to run this project on terminal:
 [Python3 Installation](https://www.python.org/downloads/)
@@ -71,9 +78,3 @@ Profile:
 This page shows the user details and the user has an option to update his profile.
 
 ![Profile](Profile.png)
-
-## Developer Details
-
-[Japneet Rajput](https://github.com/JapneetRajput) 
-
-[Portfolio Website](https://japneetrajput.github.io)
